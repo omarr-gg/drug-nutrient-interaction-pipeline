@@ -1,0 +1,25 @@
+# Python environment
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data
+data/*.csv
+
+# Do NOT ignore the samples folder
+!data/samples/
+!data/samples/*.csv
